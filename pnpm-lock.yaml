@@ -1,0 +1,27 @@
+lockfileVersion: 5.4
+
+specifiers:
+  assemblyscript: ^0.22.0
+
+devDependencies:
+  assemblyscript: 0.22.0
+
+packages:
+
+  /assemblyscript/0.22.0:
+    resolution: {integrity: sha512-BC4tV2hc+oNgKOWfXXrl5iD2W+NkQV1MbRNCMi7YE83VoSzrmJj7LqSJMHYc39nKNnX+MiL4DHzp9zCKIMal/g==}
+    engines: {node: '>=16.0.0', npm: '>=7.0.0'}
+    hasBin: true
+    dependencies:
+      binaryen: 110.0.0-nightly.20221019
+      long: 5.2.1
+    dev: true
+
+  /binaryen/110.0.0-nightly.20221019:
+    resolution: {integrity: sha512-BmuVpV5hpeU1G9ENWQUslwaxbmol810S3+yd7xVJap+vrSQz7ybXiirwya1FfYSFtuDbfGYPfQAObiW5O2PS1w==}
+    hasBin: true
+    dev: true
+
+  /long/5.2.1:
+    resolution: {integrity: sha512-GKSNGeNAtw8IryjjkhZxuKB3JzlcLTwjtiQCHKvqQet81I93kXslhDQruGI/QsddO83mcDToBVy7GqGS/zYf/A==}
+    dev: true
